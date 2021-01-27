@@ -28,11 +28,26 @@ h1 {
 }
 
 .footer {
-background-color:black;
-color:white;
-min-height: 50px;
-padding: 30px;
-padding-left: 50px;
-text-align: center;
-font-family: 'Times New Roman', Times, serif;
+    background-color:black;
+    color:white;
+    min-height: 50px;
+    padding: 30px;
+    padding-left: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+#contact {
+  margin: 0 auto;
+  position: relative;
+  width: 60%;
+  border:solid 5px;
+  background-color:lightgrey
+}
+
+
+.btn {
+   color: black;
+}
+
+
