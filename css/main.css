@@ -1,36 +1,127 @@
 body {
-    background-color: rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    margin: 35px;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  margin: 35px;
 
-  }
+}
 
 h1 {
-    color:rgb(46, 46, 46);
-    font-size: 60px;
-    
+  color:rgb(46, 46, 46);
+  font-size: 28px;
+  
+}
+
+p {
+padding: 10px;
 }
 
 .navbar {
-   
-    padding: 30px;
-    font-size: 17px;
-    text-align: left;
-   
+
+  background-color:#121420;  
+  color:white;
+  padding-left: 20px;
 
 }
 
+.navbar-nav {
+  color:white !important;
+  font-size: 24px;
+
+}
+
+:root {
+--mainColor:  #2C2B3C;
+}
+
+.navbar-nav a {
+background:
+   linear-gradient(
+     to bottom, var(--mainColor) 0%,
+     var(--mainColor) 100%
+   );
+background-position: 0 100%;
+background-repeat: repeat-x;
+background-size: 1px 1px;
+color: #dddddd !important;
+text-decoration: none;
+transition: background-size .2s;
+}
+
+.navbar-nav a:hover {
+background-size: 4px 50px;
+color:#E63946 !important;
+
+}
 .content { 
-    background-color: rgb(255, 255, 255);
-    min-height: 300px;
-    padding: 40px;
+  background-color: rgb(218, 218, 218);
+  min-height: 300px;
+  padding: 40px;
+  max-width: 100%;
 }
 
 .footer {
-background-color:rgb(255, 255, 255);
-color:rgb(39, 39, 39);
-min-height: 50px;
-padding: 30px;
-padding-left: 50px;
+  background-color:#121420;
+  color:white;
+  min-height: 50px;
+  padding: 30px;
+  padding-left: 50px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+#contact {
+margin: 0 auto;
+position: relative;
+width: 50%;
+border:solid 1px;
+background-color:lightgrey
+}
+
+#contact-head {
+  margin: 0 auto;
+  position: relative;
+  width: 50%;
+  border:solid 1px;
+  background-color:lightgrey
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #2C2B3C;
+  color: #E63946;
+}
+.fa-twitter {
+  background: #2C2B3C;
+  color: #E63946;
+}
+.fa-linkedin {
+  background: #2C2B3C;
+  color: #E63946;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.card-title {
+  font-family:Cambria, Cochin, Georgia, Times;
+  font-size: 80px;
+}
+.card-text{
+  font-family:Cambria, Cochin, Georgia, Times;
+  font-size: 20px;
+}
+.card{
+  margin: 5px;  
+}
+
+.btn {
+ color: black;
+}
+
+
