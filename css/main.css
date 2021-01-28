@@ -8,21 +8,55 @@ body {
 
 h1 {
     color:rgb(46, 46, 46);
-    font-size: 60px;
+    font-size: 28px;
     
 }
 
 .navbar {
-    padding: 30px;
-    font-size: 17px;
+    background-color:#121420;  
+    padding-left: 20px;
+    color:white;
+}
+
+.navbar-nav {
+    color:white !important;
+    font-size: 24px;
     text-align: left;
+      
     
 }
 
+:root {
+    --mainColor:  #2C2B3C;
+  }
+
+  .navbar-nav a {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    color: #dddddd !important;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  .navbar-nav a:hover {
+    background-size: 4px 50px;
+    color:#E63946 !important;
+   
+  }
+
+
+
 .content { 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(218, 218, 218);
     min-height: 300px;
     padding: 40px;
+    max-width: 100%;
 }
 
 .footer {
