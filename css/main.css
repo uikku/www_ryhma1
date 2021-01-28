@@ -73,22 +73,7 @@ h1 {
   .fa:hover {
     opacity: 0.7;
 }
-.card-title {
-    font-family:Cambria, Cochin, Georgia, Times;
-    font-size: 80px;
-}
-.card-text{
-    font-family:Cambria, Cochin, Georgia, Times;
-    font-size: 20px;
-}
-.card{
-    margin: 5px;  
-}
-.containertwo {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-  }
+
 .btn {
    color: black;
 }
