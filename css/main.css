@@ -13,12 +13,10 @@ h1 {
 }
 
 .navbar {
-   
     padding: 30px;
     font-size: 17px;
     text-align: left;
-   
-
+    
 }
 
 .content { 
@@ -28,7 +26,7 @@ h1 {
 }
 
 .footer {
-    background-color:black;
+    background-color:#121420;
     color:white;
     min-height: 50px;
     padding: 30px;
@@ -40,11 +38,41 @@ h1 {
 #contact {
   margin: 0 auto;
   position: relative;
-  width: 60%;
-  border:solid 5px;
+  width: 50%;
+  border:solid 1px;
   background-color:lightgrey
 }
 
+#contact-head {
+    margin: 0 auto;
+    position: relative;
+    width: 50%;
+    border:solid 1px;
+    background-color:lightgrey
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+    background: #2C2B3C;
+    color: #E63946;
+  }
+  .fa-twitter {
+    background: #2C2B3C;
+    color: #E63946;
+  }
+  .fa-linkedin {
+    background: #2C2B3C;
+    color: #E63946;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
 
 .btn {
    color: black;
