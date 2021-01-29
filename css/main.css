@@ -6,8 +6,39 @@ body {
 
 }
 
-
-
+.content li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 5px 0;
+}
+.content a {
+  color: rgb(37, 37, 37);
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+.content a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(31, 31, 31);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.content a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
 
 
 h1 {
@@ -48,8 +79,12 @@ padding: 10px;
   font-size: 24px;
   padding-left: 30px;
   letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  
 }
-
+ 
 .nav-item {
   margin-top: 30px;
   margin-right: 10px;
@@ -72,6 +107,9 @@ background-size: 1px 1px;
 color: #dddddd !important;
 text-decoration: none;
 transition: background-size .2s;
+text-transform: uppercase;
+display: inline-block;
+position: relative;
 }
 
 .navbar-nav a:hover {
