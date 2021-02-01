@@ -161,12 +161,12 @@ background-color:lightgrey
 }
 
 #contact-head {
-  margin: 0 auto;
+  margin:0 auto;
   position: relative;
   width: 50%;
-  border:solid 1px;
   background-color:lightgrey
 }
+
 .fa {
   padding: 20px;
   font-size: 30px;
